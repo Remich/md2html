@@ -11,7 +11,7 @@
 APPPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # load Config.sh
-. ./CONFIG.sh
+. $APPATH/CONFIG.sh
 
 # check for correct number of arguments
 if [[ $# -gt 5 ]]; then
