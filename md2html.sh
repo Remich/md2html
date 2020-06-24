@@ -3,7 +3,7 @@
 # Convert multiple Markdown files to HTML5 files using `pandoc`.
 # Usage: md2html.sh FILE...
 
-APPPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+APPPATH="$HOME/software/md2html"
 
 if [[ $# -eq 0 ]]; then
 	( >&2 echo "Error: Missing argument(s) \"FILE\" in $(basename $0).

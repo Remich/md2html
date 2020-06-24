@@ -8,10 +8,10 @@
 
 # A third argument (-p PATH) can be supplied, which specifies the location of the output. If no PATH is specified the output file will be placed in the directory of the input file.
 
-APPPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+APPPATH="$HOME/software/md2html"
 
 # load Config.sh
-. ./CONFIG.sh
+. $APPPATH/CONFIG.sh
 
 # check for correct number of arguments
 if [[ $# -gt 5 ]]; then

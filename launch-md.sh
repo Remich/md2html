@@ -6,7 +6,7 @@
 # opens it in a new instance of firefox 
 # and deletes the temporary file once the firefox instance closes.
 
-APPPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+APPPATH="$HOME/software/md2html"
 
 if [[ $# -eq 0 ]]; then
 	( >&2 echo "ERROR: No INPUT file supplied.
