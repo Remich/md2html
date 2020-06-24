@@ -112,7 +112,7 @@ fi
 # build string of CSS files
 css=""
 for i in ${CSS[*]}; do
-	css="$css --css=styles/$i"
+	css="$css --css=$APPPATH/styles/$i"
 done
 
 # convert
