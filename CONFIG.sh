@@ -3,7 +3,8 @@
 declare -A CFG
 
 # CSS files
-CSS=()
+# CSS=("github-pandoc.css" "toc-sidebar.css")
+CSS=("tufte.css", "toc-sidebar.css")
 
 # Defines which application should be used to open the temporary html file.
 # NOTE: If using firefox and firefox is already running, you have to start a new seperate session. Otherwise firefox throws an error. This probably also applies to other webbrowsers.
