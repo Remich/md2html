@@ -6,7 +6,8 @@
 # opens it in a new instance of firefox 
 # and deletes the temporary file once the firefox instance closes.
 
-APPPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+# Change this depending where to you clone it
+APPPATH="$HOME/m2dhtml"
 
 if [[ $# -eq 0 ]]; then
 	( >&2 echo "ERROR: No INPUT file supplied.

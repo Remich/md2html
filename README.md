@@ -5,6 +5,12 @@ This is a [pandoc](https://pandoc.org/)-wrapper for hassle-free conversion of Ma
 It also comes with a launcher script, which converts and opens your Markdown files in one go.  
 No need for a separate Markdown reader, since probably everyone already has a webbrowser on his system.  
 
+## Installation
+
+Clone the repository where you want to.  
+Change the variable `APPPATH` to the location where the repository resides.  
+Crating some custom symbolic links in your `$PATH` is recommnded.  
+
 ## Source Files
 
 See source files for more documentation.
