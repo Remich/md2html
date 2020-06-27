@@ -1,0 +1,91 @@
+html, body{
+	color: #24292e !important;
+}
+html {
+	width: 100%;
+	max-width: none;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: auto;
+	max-width: 920px;
+	border: 0px solid;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 18px;
+	padding: 0 3em 0 3em;
+	background-color: #fffff8;
+}
+a {
+	text-decoration: underline;
+	color: #24292e !important;
+}
+a:hover {
+	text-decoration: none;
+}
+section {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	border-bottom:1px solid #dfe2e5;
+	font-family: 'TeX Gyre Pagella', sans-serif;
+	letter-spacing: -1px;
+	color: #24292e !important;
+}
+h1 {
+	font-size: 200%;
+}
+h2 {
+	font-size: 180%;
+}
+h3 {
+	font-size: 140%;
+}
+h4 {
+	font-size: 120%;
+}
+h5 {
+	font-size: 110%;
+}
+h6 {
+	font-size: 100%;
+}
+code {
+	font-size: 17px;
+	position: relative;
+	top: -1px;
+	line-height: 1em;
+	margin: 0;
+}
+pre > code {
+	top: 0 !important;
+	line-height: 1.2em;
+}
+
+/*
+ * Sidebar
+ */
+	
+@media screen and (min-width: 900px) {
+	#TOC {
+		margin: 0;
+		padding: 0;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		height:100%;
+		width: 400px;
+		overflow-y: scroll;
+	}
+	#TOC li a {
+		text-decoration: none;
+	}
+	#TOC li a:hover {
+		text-decoration: underline;
+	}
+	body {
+		margin-left: 400px;
+	}
+}
