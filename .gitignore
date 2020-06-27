@@ -1,3 +1,7 @@
 .git/*
 .*swp
 .*swo
+.swap/*
+.undo/*
+.shada
+Session.vim
